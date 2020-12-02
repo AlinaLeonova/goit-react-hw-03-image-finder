@@ -1,15 +1,15 @@
-import React, { PureComponent } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 //import { Test } from './Button.styles';
 
 
-const Button = ({onClick}) =>{
+const Button = ({ onClick }) => {
 
- return( 
+  return (
 
- <button className="Button" type="button" onClick={
-  onClick}>Load more</button>
- 
+    <button className="Button" type="button" onClick={
+      onClick}>Load more</button>
+
   )
 }
 
