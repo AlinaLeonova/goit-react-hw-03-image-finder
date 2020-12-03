@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
 
 
 
@@ -43,13 +42,5 @@ return(
 }
 }
 
-
-Searchbar.propTypes = {
-  // bla: PropTypes.string,
-};
-
-Searchbar.defaultProps = {
-  // bla: 'test',
-};
 
 export default Searchbar;

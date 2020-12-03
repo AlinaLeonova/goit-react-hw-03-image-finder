@@ -1,7 +1,5 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+
 import axios from 'axios';
-//import { Test } from './FetchImagesWithQuery.styles';
 
 
 const FetchImagesWithQuery = (query, page = 1) => {
@@ -13,13 +11,5 @@ const FetchImagesWithQuery = (query, page = 1) => {
     .then(response => response.data.hits);
 };
 
-
-FetchImagesWithQuery.propTypes = {
-  // bla: PropTypes.string,
-};
-
-FetchImagesWithQuery.defaultProps = {
-  // bla: 'test',
-};
 
 export default FetchImagesWithQuery;
