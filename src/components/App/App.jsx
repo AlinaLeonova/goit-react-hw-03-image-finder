@@ -29,7 +29,7 @@ class App extends Component {
     if (prevQuery !==nextQuery){
       console.log("calling fetch hits");
       this.fetchHits();
-    } 
+    }
   }
 
 
@@ -55,20 +55,13 @@ fetchHits = () =>{
   })
 }
 
-  //?как сделать картинку на модалке и использовать тоггл, а не отдельные ф.
-  // toggleModal = () => {
-  //   this.setState((state) => ({ showModal: !state.showModal }))
-  //   console.log("ToggleModal")
-
-  // }
-
 handeSubmitForm = (searchQuery) =>{
 
   this.setState({
     hits:[],
     query: searchQuery,
     page:1,
-  
+
   })
 }
 
@@ -111,6 +104,5 @@ handeSubmitForm = (searchQuery) =>{
     )
   }
 }
-
 
 export default App
